@@ -1,0 +1,9 @@
+/springmvc/*.classpath
+/springmvc/*.gitignore
+/springmvc/*.project
+/springmvc/.settings/*.jsdtscope
+/springmvc/.settings/*.prefs
+/springmvc/.settings/*.component
+/springmvc/.settings/*.xml
+/springmvc/.settings/*.container
+/springmvc/.settings/*.name
