@@ -7,3 +7,8 @@
 /springmvc/.settings/*.xml
 /springmvc/.settings/*.container
 /springmvc/.settings/*.name
+/springcore/*.classpath
+/springcore/*.gitignore
+/springcore/*.project
+/springcore/.settings/*.prefs
+/springcore/src/main/java/com/spring/aop/*.class
