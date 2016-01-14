@@ -19,28 +19,20 @@ public class Main {
 		//empDao.createEmpTable();
 		
 		Employee emp = new Employee();
-		emp.setEmpId(3);
+		emp.setEmpId(10);
 		emp.setName("sumit");
 		emp.setSalary(1000);
 		
 		/**
 		 * saving records into the employee table
 		 */
-		//empDao.saveEmployee(emp);
+		try {
+			empDao.saveEmployee(emp);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
-		/**
-		 * getting records from the database
-		 */
-		
-		List<Employee> employee = empDao.findEmp(1);
-		System.out.println(employee.size());
-		/*System.out.println("Employee ID :"+employee.getEmpId());
-		System.out.println("Employee Name :"+employee.getName());
-		System.out.println("Employee Salary: "+employee.getSalary());*/
-		
-		//List<Employee> employeeLst = empDao.findEmp(1);
-		//System.out.println(employeeLst.size());
-		//System.out.println(employee.size());
 		
 	}
 

@@ -12,3 +12,6 @@
 /springcore/*.project
 /springcore/.settings/*.prefs
 /springcore/src/main/java/com/spring/aop/*.class
+/springjdbc/*.classpath
+/springjdbc/*.project
+/springjdbc/.settings/*.prefs
