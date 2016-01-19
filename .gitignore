@@ -19,3 +19,7 @@
 /springtx/*.gitignore
 /springtx/*.project
 /springtx/.settings/*.prefs
+/interviewprograms/*.classpath
+/interviewprograms/*.gitignore
+/interviewprograms/*.project
+/interviewprograms/.settings/*.prefs
