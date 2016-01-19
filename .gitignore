@@ -15,3 +15,7 @@
 /springjdbc/*.classpath
 /springjdbc/*.project
 /springjdbc/.settings/*.prefs
+/springtx/*.classpath
+/springtx/*.gitignore
+/springtx/*.project
+/springtx/.settings/*.prefs
